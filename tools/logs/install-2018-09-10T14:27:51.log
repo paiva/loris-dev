@@ -1,0 +1,11 @@
+LORIS Installation Script starting at 2018-09-10T14:27:51
+The log for this session will be stored in file /var/www/loris/tools/logs/install-2018-09-10T14:27:51.log
+---------------------------------------------------------------------
+                   LORIS Installation Script
+---------------------------------------------------------------------
+
+PHP appears to be installed.
+
+PHP Composer does not appear to be installed. Please install it before running this script.
+
+(e.g. curl -sS https://getcomposer.org/installer | php)

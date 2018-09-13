@@ -1,0 +1,45 @@
+LORIS Installation Script starting at 2018-09-12T10:59:10
+The log for this session will be stored in file /var/www/loris/tools/logs/install-2018-09-12T10:59:10.log
+---------------------------------------------------------------------
+                   LORIS Installation Script
+---------------------------------------------------------------------
+
+PHP appears to be installed.
+
+PHP Composer appears to be installed.
+
+This install script will ask you to provide inputs for different steps.
+Please ensure you have the following information ready (if applicable):
+
+  1) Your project directory name.
+     (Will be used to modify the paths for Imaging data in the generated
+     config.xml file for LORIS, and may also be used to automatically
+     create/install apache config files.) If unsure, a default like "LORIS"
+     should be acceptable.
+
+Please also consult the Loris WIKI on GitHub for more information on these
+Install Script input parameters.
+
+Ready to continue? [yn] Y
+
+Enter project name: loris
+
+Cannot create cache directory /home/lorisadmin/.composer/cache/repo/https---packagist.org/, or directory is not writable. Proceeding without cache
+Cannot create cache directory /home/lorisadmin/.composer/cache/files/, or directory is not writable. Proceeding without cache
+> mkdir -p project/libraries
+Loading composer repositories with package information
+Installing dependencies from lock file
+Nothing to install or update
+Package phpoffice/phpexcel is abandoned, you should avoid using it. Use phpoffice/phpspreadsheet instead.
+Generating autoload files
+Ubuntu distribution detected.
+Would you like to automatically create/install apache config files? (Works for Ubuntu 14.04 default Apache installations) [yn] y
+Site 000-default disabled.
+To activate the new configuration, you need to run:
+  service apache2 reload
+Site loris already enabled
+Module rewrite already enabled
+Enabling module headers.
+To activate the new configuration, you need to run:
+  service apache2 restart
+Installation complete.
